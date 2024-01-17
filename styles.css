@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --snow: hsla(15, 50%, 97%, 1);
+    --fulvous: hsla(33, 84%, 48%, 1);
+    --oxford-blue: hsla(240, 100%, 7%, 1);
+    --rusty-red: hsla(354, 71%, 55%, 1);
+    --cardinal: hsla(348, 66%, 46%, 1);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 32px;
+
+    background-color: var(--oxford-blue);
+
+    color: var(--snow);
+    font-family: Inter, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 25px;
+    border-left: 1px solid var(--rusty-red);
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+li a {
+    color: var(--rusty-red);
+    font-weight: 500;
+}
+
+li a:hover {
+    color: var(--cardinal);
+}
+
+.material-symbols-outlined {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.challenge-category-title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: max-content;
+    border-radius: 4px;
+    font-weight: 600;
+}
